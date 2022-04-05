@@ -8,4 +8,6 @@ Compared to display: inline , the major difference is that
  display vs visibility - visibility hidden remains empty space
 
  default position is static
+
+ float/clear
  

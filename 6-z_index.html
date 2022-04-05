@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #frame {
+            background-color: rgb(44, 43, 40);
+            border: 2px solid red;
+            height: 500px;
+            position: relative;
+        }
+        #one {
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0px;
+            z-index: 4;
+        }
+        #two {
+            background-color: rgb(255, 0, 85);
+            height: 100px;
+            width: 200px;
+            position: absolute;
+            bottom: 0px;
+            z-index: 3;
+        }
+        #three {
+            background-color: rgb(251, 0, 255);
+            height: 100px;
+            width: 300px;
+            position: absolute;
+            bottom: 0px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="frame">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+    </div>
+</body>
+</html>
