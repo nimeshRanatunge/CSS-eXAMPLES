@@ -1,0 +1,9 @@
+relative position - eka uda eka ok
+fixed
+absolute
+relative->absolute
+display-block/inline
+overflow- auto
+inline vs inline block
+
+https://youtu.be/XhqEuyWjbdo

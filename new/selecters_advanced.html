@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div > p {
+            background-color: aquamarine; 
+            /* child selector */
+        }
+
+        div + p {
+            background-color: brown; 
+            /* after div one element selected */
+        }
+
+        div ~ p {
+            font-style: italic;
+            /* after div all sibling elements selected */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 5px solid red;">
+        <p>I am paragraph</p>
+        <p>I am paragraph</p>
+        <span><p>hey</p></span> 
+        <!-- this p not selected as a direct child of div > not working -->
+    </div>
+
+    <p>I am para</p>
+    <p>I am para</p>
+
+    <div>
+        <p>new div</p>
+    </div>
+    <p>2nd after div</p>
+    <p>3nd after div</p>
+</body>
+</html>
