@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #grid {
+    display: grid;
+    background-color: palegoldenrod;
+    /* set specified width to columns*/
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: auto;
+}
+
+#grid div {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#grid div:nth-child(2n) {
+    background-color: blue;
+}
+#grid div:nth-child(2n+1) {
+    background-color: red;
+}
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>CSS GRIDS</h1>
+    <div id="grid">
+        <div class="sq1">1</div>
+        <div class="sq2">2</div>
+        <div class="sq3">3</div>
+        <div class="sq4">4</div>
+        <div class="sq5">5</div>
+        <div class="sq6">6</div>
+
+        <div class="sq1">7</div>
+        <div class="sq2">8</div>
+        <div class="sq3">9</div>
+        <div class="sq4">10</div>
+        <div class="sq5">11</div>
+        <div class="sq6">12</div>
+    </div>
+</body>
+</html>
