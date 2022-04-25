@@ -1,0 +1,13 @@
+#grid {
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+div {
+    background-color: black;
+    color: rebeccapurple;
+    grid-row: 3/span 2;
+    grid-column: 2/span 3;
+}
