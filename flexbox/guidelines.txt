@@ -1,0 +1,13 @@
+Flex container properties -
+    flex-direction
+    flex-wrap
+    flex-flow
+    justify-content
+    align-items
+    align-content
+Flex-item -
+    order
+    flex-grow
+    flex-shrink
+    flex-basis
+    align-self
