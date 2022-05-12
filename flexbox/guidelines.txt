@@ -11,3 +11,13 @@ Flex-item -
     flex-shrink
     flex-basis
     align-self
+
+flex-direction - row
+---------------> main axis
+
+ flex-direction - column
+ |
+ |
+ |
+ |
+ V main axis
